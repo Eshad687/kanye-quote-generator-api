@@ -1,0 +1,13 @@
+.quotes{
+    text-align: center;
+}
+#quote::before{
+    content: open-quote;
+    font-size: 2em;
+    color: hotpink;
+}
+#quote::after{
+content: close-quote;
+font-size: 2em;
+color: hotpink;
+}
